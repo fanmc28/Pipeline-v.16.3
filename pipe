@@ -1,0 +1,28 @@
+pipeline {
+     agent any 
+     stages {
+	 stage{"----build----"}{
+            
+                    steps {
+			echo "START"
+			echo "----build----"
+			echo "STOP"
+			}			
+		}
+         stage{"----test----"}{
+		    steps {
+			echo "START"
+			echo "----test----"
+			echo "STOP"
+			}
+		 }
+         stage{"----deploy----"}{
+		    steps{
+			echo "START"
+			echo "----deploy----"
+			echo "STOP"
+			}
+		 }
+	       	
+	 }
+}
