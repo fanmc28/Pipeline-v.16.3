@@ -19,7 +19,7 @@ pipeline {
 	 steps {
 		echo 'START'
 		echo '----deploy----'
-		echo 'STOP"
+		echo 'STOP'
 		}
 	    }
 	       	
